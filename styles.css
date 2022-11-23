@@ -1,0 +1,175 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* Do not change margin or padding */
+  background: #f5f7fa;
+/* NOTE: do not change the background in media query */
+font-family: 'Open Sans', helvetica, sans-serif;
+/* NOTE you can change the fonts but always have a backup */
+}
+/* NOTE: MOBILE STYLES BELOW --------------------- */
+
+
+
+
+/* NOTE do not change nav styles below without checking with April */
+.mainNav {
+  background: #efefef;
+  color: #1a1b18;
+  height: 60px;
+  position: relative;
+}
+.mainNav a {
+  text-decoration: none;
+}
+.mainNav .menu {
+  background: #efefef;
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #efefef;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /*POSITION*/
+  position: absolute;
+  top: 60px;
+  right: 0;
+  left: 0;
+}
+.mainNav .menu a {
+  color: #292938;
+  border-bottom: 1px solid #efefef;
+  font-weight: bold;
+  display: block;
+  padding: 15px;
+}
+.mainNav .menu a:hover {
+  background: #292938;
+  color: #efefef;
+}
+.mainNav .navBars {
+  display: inline-block;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  float: right;
+  /* NOTE HAMBURGER POSITION to the right*/
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+#xBxHack {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -99999px;
+}
+#xBxHack:checked ~ nav .menu {
+  display: block;
+}
+.navcontainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* NOTE: END Navigation styles --------------------- */
+
+.wrapper{
+  background: #f5f7fa;
+  margin: auto;
+  width:90%;
+  /* Width with a margin auto keeps the content from touching the edge */
+  padding: 20px;
+}
+
+.grid{
+
+}
+.grid div{
+
+}
+
+img{
+  /* width:100%; */
+  max-width: 100%;
+}
+/* NOTE: All other images will need a class to style the width if you want them a diffrent size */
+
+h1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer{
+  background: rgba(69, 126, 110, 0.67);
+  text-align: center;
+  padding:20px;
+}
+
+
+
+
+/* NOTE: START MEDIUM SIZE DISPLAYS ---------------------*/
+@media only screen and (min-width: 700px) {
+
+
+  .wrapper{
+
+  }
+
+  .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 5px;
+  }
+  .grid div{
+
+  }
+
+
+  /* NOTE Do not change nav styles below ------------without help from April*/
+  .mainNav {
+      overflow: hidden;
+    }
+    .mainNav .navBars {
+      display: none;
+    }
+    .mainNav .navcontainer {
+      padding-top: 0;
+      padding-bottom: 0;
+      max-width:100%;
+  /* 	Add max-width:100 to counter act the styles above media query so the links could be all the way to the left or right */
+    }
+    .mainNav .menu {
+      display: block;
+      box-shadow: none;
+      border: none;
+      /* float:left; */
+      /* NOTE LINKS POSITION to the left*/
+      text-align: center;
+      /* NOTE LINKS POSITION center*/
+      /* float: right; */
+      /* NOTE LINKS POSITION to the right*/
+      position: static;
+    }
+    .mainNav .menu li {
+      display: inline-block;
+    }
+    .mainNav .menu a {
+      border: none;
+      padding: 20px 10px;
+    }
+/* NOTE END nav styles --------------------------- */
+
+}/* NOTE: DO NOT DELETE THIS LAST CURLY BRACE */
+/* END MEDIUM SIZE DISPLAYS ----------------------- */
+/* START LARGE SCREEN STYLES BELOW ---------------- */
+@media only screen and (min-width: 1200px) {
+
+
+
+
+
+}/* NOTE: DO NOT DELETE THIS LAST CURLY BRACE */
