@@ -115,9 +115,23 @@ footer{
 @media only screen and (min-width: 700px) {
 
 
-  .wrapper{
 
-  }
+    .medium-size{
+      max-width: 700px;
+    }
+
+    .two-col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5px;
+    }
+    .center-this{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        /* Note you can use this to center an element but you have to add a width */
+    }
+
 
   .grid{
       display: grid;
@@ -164,10 +178,15 @@ footer{
 /* NOTE END nav styles --------------------------- */
 
 }/* NOTE: DO NOT DELETE THIS LAST CURLY BRACE */
-/* END MEDIUM SIZE DISPLAYS ----------------------- */
-/* START LARGE SCREEN STYLES BELOW ---------------- */
+/* NOTE END MEDIUM SIZE DISPLAYS ----------------------- */
+/* NOTE START LARGE SCREEN STYLES BELOW ---------------- */
 @media only screen and (min-width: 1200px) {
 
+
+
+    .wrapper{
+        max-width: 1700px;
+    }
 
 
 
