@@ -115,6 +115,9 @@ h1{
 
 /* ".logo" is "The Bronze Coffee Shop" on top of the page */
 
+
+
+
 footer{
   background: #6b4d33;
   text-align: center;
@@ -131,6 +134,10 @@ footer{
 
     .medium-size{
       max-width: 700px;
+    }
+
+    .padding-top {
+      padding-top: 20px;
     }
 
     .two-col{
