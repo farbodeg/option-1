@@ -1,5 +1,5 @@
 body{
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: #EDEDED;
@@ -17,7 +17,7 @@ font-family: 'Open Sans', helvetica, sans-serif;
 
 /* NOTE do not change nav styles below without checking with April */
 .mainNav {
-  background: #efefef;
+  background: #6b4d33;
   color: #1a1b18;
   height: 60px;
   position: relative;
