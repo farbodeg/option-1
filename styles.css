@@ -106,7 +106,14 @@ img{
 h1{
   text-align: center;
   padding-top: 20px;
+
 }
+
+.logo {
+  font-family: 'Merienda', sans-serif;
+}
+
+/* ".logo" is "The Bronze Coffee Shop" on top of the page */
 
 footer{
   background: #6b4d33;
