@@ -115,6 +115,15 @@ img{
   width: 450px;
 }
 
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 250px;
+
+  overflow: hidden;
+}
+
 h1{
   text-align: center;
   padding-top: 20px;
@@ -122,7 +131,11 @@ h1{
 }
 
 .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   font-family: 'Merienda', sans-serif;
+  transform: translate(-50%, -50%);
 }
 
 /* ".logo" is "The Bronze Coffee Shop" on top of the page */
