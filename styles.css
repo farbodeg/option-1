@@ -61,6 +61,10 @@ font-family: 'Open Sans', helvetica, sans-serif;
    -ms-user-select: none;
        user-select: none;
   -webkit-user-select: none;
+  color: #EDEDED;
+
+  /* This is for those three line */
+
 }
 #xBxHack {
   visibility: hidden;
@@ -70,6 +74,7 @@ font-family: 'Open Sans', helvetica, sans-serif;
 }
 #xBxHack:checked ~ nav .menu {
   display: block;
+
 }
 .navcontainer {
   max-width: 960px;
@@ -90,7 +95,7 @@ font-family: 'Open Sans', helvetica, sans-serif;
 
 }
 .grid div{
-
+  padding-left: 35px;
 }
 
 img{
@@ -108,11 +113,32 @@ img{
 }
 
 .img3 {
-  width: 535px;
+  width: 640px;
 }
 
 .img4 {
   width: 450px;
+}
+
+.img5 {
+  width: 600px;
+  padding-top: 50px;
+}
+
+.img6 {
+  width: 400px;
+  height: 808px;
+  padding-top: 50px;
+}
+
+.img7 {
+  width: 400px;
+  padding-top: 50px;
+}
+
+.img8 {
+  width: 400px;
+  padding-top: 50px;
 }
 
 .header {
@@ -164,6 +190,8 @@ footer{
     .padding-top {
       padding-top: 20px;
     }
+
+
 
     .two-col{
         display: grid;
