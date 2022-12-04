@@ -92,7 +92,8 @@ font-family: 'Open Sans', helvetica, sans-serif;
 }
 
 .grid{
-
+  margin: auto;
+  padding-right: 30px;
 }
 .grid div{
   padding-left: 35px;
