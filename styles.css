@@ -214,9 +214,53 @@ footer{
       grid-column-gap: 30px;
       width: 90%;
       margin: auto;
+      padding-right: 30px;
   }
   .grid div{
 
+  }
+
+  img{
+    /* width:100%; */
+    max-width: 100%;
+  }
+  /* NOTE: All other images will need a class to style the width if you want them a diffrent size */
+
+  .img1{
+    width: 800px;
+  }
+
+  .img2 {
+    width: 500px;
+  }
+
+  .img3 {
+    width: 640px;
+  }
+
+  .img4 {
+    width: 450px;
+  }
+
+  .img5 {
+    width: 600px;
+    padding-top: 50px;
+  }
+
+  .img6 {
+    width: 400px;
+    height: 270px;
+    padding-top: 50px;
+  }
+
+  .img7 {
+    width: 400px;
+    padding-top: 50px;
+  }
+
+  .img8 {
+    width: 400px;
+    padding-top: 50px;
   }
 
 
@@ -264,6 +308,58 @@ footer{
     .wrapper{
         max-width: 1700px;
     }
+
+    .grid{
+
+    }
+    .grid div{
+      padding-left: 35px;
+    }
+
+
+    img{
+      /* width:100%; */
+      max-width: 100%;
+    }
+    /* NOTE: All other images will need a class to style the width if you want them a diffrent size */
+
+    .img1{
+      width: 800px;
+    }
+
+    .img2 {
+      width: 500px;
+    }
+
+    .img3 {
+      width: 640px;
+    }
+
+    .img4 {
+      width: 450px;
+    }
+
+    .img5 {
+      width: 600px;
+      padding-top: 50px;
+    }
+
+    .img6 {
+      width: 400px;
+      height: 808px;
+      padding-top: 50px;
+    }
+
+    .img7 {
+      width: 400px;
+      padding-top: 50px;
+    }
+
+    .img8 {
+      width: 400px;
+      padding-top: 50px;
+    }
+
 
 
 
