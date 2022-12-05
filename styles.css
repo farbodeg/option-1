@@ -95,6 +95,13 @@ font-family: 'Open Sans', helvetica, sans-serif;
   margin: auto;
   padding-right: 30px;
 }
+
+.contactf{
+  /* border: solid red; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .grid div{
   padding-left: 35px;
 }
@@ -142,6 +149,105 @@ img{
   padding-top: 50px;
 }
 
+.iframe {
+  width: 300px;
+  height: 300px;
+}
+
+.appreciate {
+  padding-top: 70px;
+  font-size: 18px;
+}
+
+.img9 {
+  /* width: 400px; */
+}
+
+.email {
+  text-decoration: none;
+  color: #EDEDED;
+  font-weight: bolder;
+}
+
+.email:hover {
+  color: brown;
+  background: #CD7F3A;
+}
+
+.fname{
+  width: 300px;
+  height: 30px;
+  background: lightblue;
+  border-radius: 40px;
+}
+
+/* The code above is for textboxes */
+
+.fnamet {
+  font-size: 14px;
+}
+
+/* The text of "NAME" word */
+
+.emailt {
+  font-size: 14px;
+}
+
+/* The text of "EMAIL" word */
+
+.subjectt {
+  font-size: 14px;
+}
+
+/* The text of "SUBJECT" word */
+
+.titlet {
+  font-size: 14px;
+}
+
+/* The text of "TITLE" word */
+
+
+.emailb {
+  /* margin-left: 34.5px; */
+  width: 300px;
+  height: 30px;
+  border-radius: 40px;
+  background: lightblue;
+}
+
+/* The code above is for textboxes */
+
+.subject {
+  /* margin-left: 20.5px; */
+  width: 300px;
+  height: 30px;
+  border-radius: 40px;
+  background: lightblue;
+}
+
+/* The code above is for textboxes */
+
+.title {
+  /* margin-left: -10px; */
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  background: lightblue;
+}
+
+/* The code above is for textboxes */
+
+.button {
+  border-radius: 10px;
+  background: lightblue;
+  width: 90px;
+  height: 40px;
+  margin-left: 115px
+}
+
+/* This code above is the BUTTON for my contact FORM */
+
 .header {
   position: relative;
   text-align: center;
@@ -154,6 +260,7 @@ img{
 h1{
   text-align: center;
   padding-top: 20px;
+  cursor: default;
 
 }
 
@@ -166,6 +273,7 @@ h1{
 }
 
 /* ".logo" is "The Bronze Coffee Shop" on top of the page */
+
 
 
 
@@ -264,6 +372,97 @@ footer{
     padding-top: 50px;
   }
 
+  .iframe {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+  }
+
+  .appreciate {
+    padding-top: 70px;
+    font-size: 18px;
+    margin-left: -90px;
+  }
+
+  .img9 {
+    width: 700px;
+  }
+
+  .fname{
+    width: 300px;
+    height: 30px;
+    background: lightblue;
+    border-radius: 40px;
+  }
+
+  /* The code above is for textboxes */
+
+  .fnamet {
+    font-size: 14px;
+  }
+
+  /* The text of "NAME" word */
+
+  .emailt {
+    font-size: 14px;
+  }
+
+  /* The text of "EMAIL" word */
+
+  .subjectt {
+    font-size: 14px;
+  }
+
+  /* The text of "SUBJECT" word */
+
+  .titlet {
+    font-size: 14px;
+  }
+
+  /* The text of "TITLE" word */
+
+
+  .emailb {
+    /* margin-left: 34.5px; */
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+    background: lightblue;
+  }
+
+  /* The code above is for textboxes */
+
+  .subject {
+    /* margin-left: 20.5px; */
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+    background: lightblue;
+  }
+
+  /* The code above is for textboxes */
+
+  .title {
+    /* margin-left: -10px; */
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: lightblue;
+  }
+
+  /* The code above is for textboxes */
+
+  .button {
+    border-radius: 10px;
+    background: lightblue;
+    width: 90px;
+    height: 40px;
+    margin-left: 115px
+  }
+
+  /* This code above is the BUTTON for my contact FORM */
+
+
 
   /* NOTE Do not change nav styles below ------------without help from April*/
   .mainNav {
@@ -301,6 +500,9 @@ footer{
 
 }/* NOTE: DO NOT DELETE THIS LAST CURLY BRACE */
 /* NOTE END MEDIUM SIZE DISPLAYS ----------------------- */
+
+
+
 /* NOTE START LARGE SCREEN STYLES BELOW ---------------- */
 @media only screen and (min-width: 1200px) {
 
@@ -361,6 +563,93 @@ footer{
       padding-top: 50px;
     }
 
+    .iframe {
+      width: 700px;
+      height: 500px;
+    }
+
+    .appreciate {
+      padding-top: 70px;
+      font-size: 18px;
+    }
+
+    .img9 {
+      width: auto;
+    }
+
+    .fname{
+      width: 700px;
+      height: 30px;
+      background: lightblue;
+      border-radius: 40px;
+    }
+
+    /* The code above is for textboxes */
+
+    .fnamet {
+      font-size: 14px;
+    }
+
+    /* The text of "NAME" word */
+
+    .emailt {
+      font-size: 14px;
+    }
+
+    /* The text of "EMAIL" word */
+
+    .subjectt {
+      font-size: 14px;
+    }
+
+    /* The text of "SUBJECT" word */
+
+    .titlet {
+      font-size: 14px;
+    }
+
+    /* The text of "TITLE" word */
+
+
+    .emailb {
+      /* margin-left: 34.5px; */
+      width: 700px;
+      height: 30px;
+      border-radius: 40px;
+      background: lightblue;
+    }
+
+    /* The code above is for textboxes */
+
+    .subject {
+      /* margin-left: 20.5px; */
+      width: 700px;
+      height: 30px;
+      border-radius: 40px;
+      background: lightblue;
+    }
+
+    /* The code above is for textboxes */
+
+    .title {
+      /* margin-left: -10px; */
+      width: 700px;
+      height: 300px;
+      border-radius: 15px;
+      background: lightblue;
+    }
+
+    /* The code above is for textboxes */
+
+    .button {
+      border-radius: 10px;
+      background: lightblue;
+      width: 90px;
+      height: 40px;
+      margin-left: 315px
+    }
+
+    /* This code above is the BUTTON for my contact FORM */
 
 
 
