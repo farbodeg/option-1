@@ -257,6 +257,15 @@ img{
   margin-left: 115px
 }
 
+.tnx {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  padding: 100px;
+  font-size: 30px;
+}
+
 .menu {
   background: #cd7f32;
   padding-left:2px;
@@ -509,6 +518,15 @@ footer{
     margin-left: 115px
   }
 
+  .tnx {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 150px;
+    font-size: 40px;
+  }
+
   .menu {
     background: #cd7f32;
     padding-left:2px;
@@ -584,6 +602,15 @@ footer{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+.tnx {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding: 300px;
+  font-size: 50px;
 }
 
 /* NOTE START LARGE SCREEN STYLES BELOW ---------------- */
@@ -738,6 +765,15 @@ footer{
       width: 90px;
       height: 40px;
       margin-left: 315px
+    }
+
+    .tnx {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      padding: 300px;
+      font-size: 50px;
     }
 
     .menu {
