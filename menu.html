@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Do not change this group of code below -->
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="nav.js"></script>
+    <!-- End of group- You can change code again after this -->
+
+    <title>The Bronze Coffee Shop</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- NOTE: Google font that you can remove and put in yours -->
+
+    <link rel="icon" href="images/l.jpeg" type="image/icon type">
+
+    <!-- Icon logo above -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap" rel="stylesheet">
+
+    <!-- The logo Font Above-->
+
+</head>
+<!-- NOTE: The code above needs to be on every HTML file or the navigation will be broken and you might loose CSS styles in general.
+You can change the google font, or add a new font.-->
+<!-- NOTE No code between head and body -->
+<body>
+
+  <div class="header">
+    <!-- <img src="images/c.jpg" alt="Header"> -->
+
+    <h1 class="logo">The Bronze Coffee Shop</h1>
+  </div>
+    <!--NOTE NAV CODE - watch out! Do not change class or id names -->
+    <input type="checkbox" id="xBxHack" />
+    <!-- This will trigger the dropdown menu when user clicks in the icon  -->
+    <nav id="mainNav" class="mainNav">
+	   <div class="navcontainer">
+    		<label class="navBars" for="xBxHack">
+    			<i class="fa fa-bars"></i>
+                <!-- hamburgerc icon -->
+    		</label>
+    		<ul id="menu" class="menu">
+                <!-- NOTE Change links below -->
+    			<li><a href="index.html">Home</a></li>
+    			<li><a href="about.html">About</a></li>
+    			<li><a href="#">Menu</a></li>
+    			<li><a href="contact.html">Contact</a></li>
+                <!-- Some of these links above won't be developed - make sure those have a hashtag in the link address so it will keep users from visiting a broken page.-->
+    		</ul>
+    	</div><!-- end NAV container-->
+    </nav><!--NOTE End NAV CODE-->
+
+
+    <div class="wrapper">
+        <!-- wrapper alows for extra space between the edge of screen and content. This can be changed in the media query -->
+
+
+        <br>
+
+
+      <div class="two-col">
+            <!-- two-col will have two items in it that will be next to eachother -->
+          <div class="medium-size padding-top">
+
+            <h2 class="menu">BREWED COFFEE</h2>
+              <p class="line1">COFFEE WITH A SHOT ................................................................................ $3.25 $3.50 $4.00</p>
+              <p class="line2">Your choce of brewed coffee with a freshly brewed shot of espresso</p>
+              <p class="line1">ICED COFFEE ................................................................................ $4.00 $4.75 $5.25</p>
+              <p class="line2">This house cold brew is intense. super thick, and muddy with 2-3 times the calleine of a normal cup of coffee!</p>
+              <p class="line1">COLD BREW ................................................................................ $3.00 $3.50 $4.00</p>
+              <p class="line2">This brew is perfect for any day!
+                Try it with coffee ice cubes for
+                more more of a kick</p>
+              <p class="line1">CHOCOLATE LATTE ................................................................................ $4.50 $5.00 $5.50</p>
+              <p class="line2">Your choice of brewed coffee mixed
+                 with steamed choco ate milk and topped with a dollop of chocolate mills froth</p>
+
+          </div> <!-- END medium size-->
+          <img src="images/6.jpeg" alt="Coffee" class="img1">
+          <!-- The image above is from:"https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg" -->
+
+
+      </div><!-- END two-col-->
+
+
+        <div class="grid">
+            <!-- NOTE: The class called "grid" has styles in the styles.css media query. It will create multiple colums when the screen is larger.
+            When the screen is small the boxes stack for easy reading on a phone. -->
+            <div>
+              <h2 class="menu2">ESPRESSO</h2>
+              <p class="line1">ESPRESSO ........................................................ $2.75 $3.00 $3.25</p>
+              <p class="line2">Concentrated colcean small shot</p>
+              <p class="line1">CAPPUCCINO ............................................. $3.50 $3.75 $4.00</p>
+              <p class="line2">COne part espresso, one part milk and one part foam</p>
+              <p class="line1">LATTE ........................................................... $4.25 $4.50 $4.75</p>
+              <p class="line2">Espresso and steamed milk with a
+                touch of foam</p>
+              <p class="line1">MOCHA .................................................. $4.50 $4.75 $5.00</p>
+              <p class="line2">Espresso, steamed milk. and chocolate</p>
+              <p class="line1">AMERICANO ......................................... $2.50 $3.25 $4.25</p>
+              <p class="line2">With hot water</p>
+              <p class="line1">FLAT WHITE ......................................... $2.50 $3.25 $4.00</p>
+              <p class="line2">With steamed milk</p>
+              <p class="line1">CAFE BREVE ......................................... $2.50 $3.25 $4.00</p>
+              <p class="line2">With half & half</p>
+          </div><!-- end first box -->
+            <div>
+              <h2 class="menu2">FRAPPUCCINOS</h2>
+
+              <p class="line1">ESPRESSO FRAPPE ................................... $4.25 $4.75 $5.25</p>
+              <p class="line2">Espresso blended with milk and
+                ice. Topped with whipped cream</p>
+              <p class="line1">MOCHA FRAPPE ................................... $4.50 $5.00 $5.50</p>
+              <p class="line2">Espresso blended with mocha
+                sauce, milk, and ice. Topped with whipped cream and a chocolate drizzle</p>
+              <p class="line1">WHITE MOCHA FRAPPE ........................... $4.50 $5.00 $5.50</p>
+              <p class="line2">Espresso blended with white chocholate mocha sauce, milk and ice. Topped with whipped cream</p>
+          </div> <!-- end second box -->
+            <div>
+              <h2 class="menu2">Coffee Cheese Cake Bar</h2>
+
+
+              <p class="line1">SALTED CARAMEL CHEESECAKE ........................... NO ONLINE PRICES</p>
+              <p class="line2">Caramel Cheesecake and Creamy Caramel Mousse on a Blonde Browmic all Topped with Salted Caramel</p>
+              <p class="line1">DREAM EXTREME CHEESECAKE ........................... NO ONLINE PRICES</p>
+              <p class="line2">Creamy Cheesecake Layered with Oreo Cookies, Topped with Oreo Cookie Mouse and Chocolate Icing</p>
+              <p class="line1">TOASTED MARSHMALLOW S'MORES GALORE™ ........................... NO ONLINE PRICES</p>
+              <p class="line2">Hershey's Cheesecake Topped with Housemade Marshmallow and Honey Maid' Graham Crackers</p>
+              <p class="line1">ADAM'S PEANUT BUTTER CUP FUDGE RIPPLE ........................... NO ONLINE PRICES</p>
+              <p class="line2">Creamy Cheesecake Swirled with Caramel, Peand Butter, Butterfinger and Reese's Peanud Butter Caps</p>
+          </div><!-- end third box -->
+
+          <!-- NOTE You can add more boxes here to be in the grid-->
+        </div><!--End CSS Grid div-->
+
+
+        <div class="two-col">
+              <!-- two-col will have two items in it that will be next to eachother -->
+            <img src="" alt="">
+
+            <img src="" alt="">
+        </div><!-- END two-col-->
+
+
+
+
+
+
+
+  </div><!--end wrapper-->
+
+
+
+
+
+      <footer>
+
+        <p>The Bronze Coffee Shop &copy 2022 </p>
+
+      </footer>
+  </body><!-- DO NOT DELETE CLOSING BODY TAG-->
+</html><!-- DO NOT DELETE CLOSING HTML TAG-->

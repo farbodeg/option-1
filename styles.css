@@ -246,6 +246,34 @@ img{
   margin-left: 115px
 }
 
+.menu {
+  background: #cd7f32;
+  padding-left:2px;
+  margin-right: 440px;
+  text-align: center;
+}
+
+.menu2 {
+  background: #cd7f32;
+  padding-left:20px;
+  margin-right: -1px;
+  text-align: center;
+}
+
+.line1 {
+  color: white;
+  font-weight: bolder;
+  font-family: sans-serif;
+
+}
+
+.line2 {
+  color: silver;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+
 /* This code above is the BUTTON for my contact FORM */
 
 .header {
@@ -325,6 +353,9 @@ footer{
       margin: auto;
       padding-right: 30px;
   }
+
+  
+
   .grid div{
 
   }
@@ -386,6 +417,7 @@ footer{
 
   .img9 {
     width: 700px;
+    margin-left: -50px;
   }
 
   .fname{
@@ -459,6 +491,34 @@ footer{
     height: 40px;
     margin-left: 115px
   }
+
+  .menu {
+    background: #cd7f32;
+    padding-left:2px;
+    margin-right: 440px;
+    text-align: center;
+  }
+
+  .menu2 {
+    background: #cd7f32;
+    padding-left:20px;
+    margin-right: -1px;
+    text-align: center;
+  }
+
+  .line1 {
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+
+  }
+
+  .line2 {
+    color: silver;
+    font-weight: bolder;
+    font-family: sans-serif;
+  }
+
 
   /* This code above is the BUTTON for my contact FORM */
 
@@ -575,6 +635,7 @@ footer{
 
     .img9 {
       width: auto;
+      margin-left: -50px;
     }
 
     .fname{
@@ -647,6 +708,33 @@ footer{
       width: 90px;
       height: 40px;
       margin-left: 315px
+    }
+
+    .menu {
+      background: #cd7f32;
+      padding-left:2px;
+      margin-right: 440px;
+      text-align: center;
+    }
+
+    .menu2 {
+      background: #cd7f32;
+      padding-left:20px;
+      margin-right: -1px;
+      text-align: center;
+    }
+
+    .line1 {
+      color: white;
+      font-weight: bolder;
+      font-family: sans-serif;
+
+    }
+
+    .line2 {
+      color: silver;
+      font-weight: bolder;
+      font-family: sans-serif;
     }
 
     /* This code above is the BUTTON for my contact FORM */
